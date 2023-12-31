@@ -152,3 +152,5 @@ cython_debug/
 #.idea/
 Data/title.basics.tsv.gz
 Data/title.ratings.tsv.gz
+Data/movie_reviews_v2.csv
+Data/movie_reviews_v2.joblib
