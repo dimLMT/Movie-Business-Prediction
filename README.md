@@ -36,7 +36,18 @@ For each question, we will present visualizations that support the findings of t
 - Movies that are over 2 hours have a significantly different revenue than movies that under 1.5 hours in length.<img width="600" alt="image" src="https://github.com/dimLMT/Movie-Business-Prediction/assets/36935946/cc060b64-4a56-430a-9ada-f45baf913e61">
 - The genre of a movie does affect how much revenue a movie generates.<img width="600" alt="image" src="https://github.com/dimLMT/Movie-Business-Prediction/assets/36935946/4a2bb694-d76c-4a50-a99f-b080849972b0">
 
-## Summary and Reccomendations
+#### Summary and Reccomendations
 According to the movie data from 2000-2005, our findings indicate that 'PG,' 'PG-13,' and 'G' certifications tend to have a higher likelihood of revenue success compared to 'R' certification. Additionally, movies longer than 2 hours tend to earn more revenue than those shorter than 1.5 hours. Furthermore, the top four popular movie genres in terms of commercial success are Adventure, Animation, Sci-Fi, and Fantasy.
 
 However, it's important to note that these trends may have evolved in the recent 2020s. Since we are analyzing data from 2000-2005, it is advisable to gather more recent data from the past five years for a more up-to-date analysis.
+
+## Part 5: ​Sentiment Analysis and Rating Prediction of Moving Reviews
+TMDB movie reviews with ratings range from 1 to 10 are gathered through the tmdbsimple python wrapper for the TMDB API. ![image](https://github.com/dimLMT/Movie-Business-Prediction/assets/36935946/dccc56bb-9a57-4af7-b5c1-91abb7501549)
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+We apply Natural Language Processing (NLP) techniques to analyze a dataset of movie reviews with defining "High-rating" reviews as any review with a rating >=9; and "Low-rating" reviews as any review with a rating <=4. The middle ratings between 4 and 9 will be excluded from the analysis.
+
+
+
+
+
